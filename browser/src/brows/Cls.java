@@ -26,6 +26,11 @@ public class Cls {
 		//driver.findElement(By.xpath("//body[@class='logged-in env-production min-width-lg']")).click();
 		driver.close();
 		
+		driver.navigate().back();
+		driver.navigate().forward();
+		driver.navigate().refresh();
+		driver.navigate().to("url");
+		
 		
 		
 		//System.out.println("running with chrome");
