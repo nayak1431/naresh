@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="511" started-at="2020-01-04T12:23:18Z" finished-at="2020-01-04T12:23:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="511" started-at="2020-01-04T12:23:18Z" finished-at="2020-01-04T12:23:19Z">
+      <class name="package1.CBtest">
+        <test-method status="FAIL" signature="Crb(java.lang.String)[pri:0, instance:package1.CBtest@17e2f02]" name="Crb" is-config="true" duration-ms="0" started-at="2020-01-04T17:53:18Z" finished-at="2020-01-04T17:53:18Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method Crb but has not been marked @Optional or defined
+in C:\Users\QAPLANET1\AppData\Local\Temp\testng-eclipse-650939770\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method Crb but has not been marked @Optional or defined
+in C:\Users\QAPLANET1\AppData\Local\Temp\testng-eclipse-650939770\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:203)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Crb -->
+        <test-method status="SKIP" signature="Tc1_1()[pri:0, instance:package1.CBtest@17e2f02]" name="Tc1_1" duration-ms="5" started-at="2020-01-04T17:53:18Z" finished-at="2020-01-04T17:53:18Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method Crb but has not been marked @Optional or defined
+in C:\Users\QAPLANET1\AppData\Local\Temp\testng-eclipse-650939770\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method Crb but has not been marked @Optional or defined
+in C:\Users\QAPLANET1\AppData\Local\Temp\testng-eclipse-650939770\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:203)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc1_1 -->
+        <test-method status="SKIP" signature="Tc1_2()[pri:1, instance:package1.CBtest@17e2f02]" name="Tc1_2" duration-ms="0" started-at="2020-01-04T17:53:19Z" depends-on-methods="package1.CBtest.Tc1_1" finished-at="2020-01-04T17:53:19Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CBtest.Tc1_2()[pri:1, instance:package1.CBtest@17e2f02] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CBtest.Tc1_2()[pri:1, instance:package1.CBtest@17e2f02] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc1_2 -->
+      </class> <!-- package1.CBtest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
