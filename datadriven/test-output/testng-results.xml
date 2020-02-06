@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53664" started-at="2020-02-06T10:40:32Z" finished-at="2020-02-06T10:41:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53664" started-at="2020-02-06T10:40:32Z" finished-at="2020-02-06T10:41:25Z">
+      <class name="pckg.cls1">
+        <test-method status="PASS" signature="TC1(java.lang.String, java.lang.String)[pri:0, instance:pckg.cls1@f5e5e3]" name="TC1" duration-ms="18352" started-at="2020-02-06T10:40:32Z" data-provider="LoginCredentials" finished-at="2020-02-06T10:40:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaplanet1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lab1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="TC1(java.lang.String, java.lang.String)[pri:0, instance:pckg.cls1@f5e5e3]" name="TC1" duration-ms="10732" started-at="2020-02-06T10:40:50Z" data-provider="LoginCredentials" finished-at="2020-02-06T10:41:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaplanet1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lab1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="TC1(java.lang.String, java.lang.String)[pri:0, instance:pckg.cls1@f5e5e3]" name="TC1" duration-ms="8094" started-at="2020-02-06T10:41:01Z" data-provider="LoginCredentials" finished-at="2020-02-06T10:41:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaplanet1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lab1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="TC1(java.lang.String, java.lang.String)[pri:0, instance:pckg.cls1@f5e5e3]" name="TC1" duration-ms="16439" started-at="2020-02-06T10:41:09Z" data-provider="LoginCredentials" finished-at="2020-02-06T10:41:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaplanet1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lab1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+      </class> <!-- pckg.cls1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
