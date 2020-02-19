@@ -16,6 +16,7 @@ public class Jntu19 extends Jntu18 {
 	}
 	void display(){
 		this.add();
+		super.add();
 	
 		
 	}
